@@ -1,0 +1,11 @@
+.footer{
+    min-height: 10vh;
+    background-color:black;
+    color:white ;
+    a{
+        color: inherit;
+        &:hover{
+            color: inherit;
+        }
+    }
+}

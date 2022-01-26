@@ -1,0 +1,16 @@
+@import '../variables.scss';
+.header{
+    min-height: 10vh;
+    background-color:black !important ;
+    color: white !important;
+
+    
+    nav{
+        background-color:black !important ;
+        color: white !important;
+
+        i{
+            color: white
+        }
+    }
+}
