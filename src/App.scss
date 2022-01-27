@@ -1,0 +1,19 @@
+.App{
+    
+    a{
+    color:inherit !important;
+    text-decoration: inherit !important;
+}
+
+.main-content{
+    .overlay{
+        background-color:rgba(0, 0, 0, 0.445);
+        min-height: 80vh;
+    }
+    min-height: 80vh;
+    background-image:url('./images/intro.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+}

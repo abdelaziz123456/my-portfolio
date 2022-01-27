@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+.header{
+    min-height: 10vh;
+  
+    color: white !important;
+
+    font-size: larger;
+.navbar{
+    min-height: 10vh;
+}
+  
+
+    .brand{
+        margin-left: 30px;
+        margin: 5px 30px;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 5px 10px;min-width: 120px;
+            &:hover{
+              border: 1px solid white;
+            }
+    }
+    .navbar-nav{
+
+        .nav-item{
+            margin: 5px 30px;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 5px 10px;
+            max-width: 120px;
+            &:hover{
+              border: 1px solid white;
+            }
+        }
+    }
+
+    
+    
+    
+}
