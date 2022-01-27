@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import "./App.scss";
 import Contacts from "./Components/Contacts";
@@ -9,7 +10,43 @@ import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 
 function App() {
-  return (
+  const [loaded,setLoaded]= useState(false)
+
+  function setLoading(){
+    setTimeout(()=>{
+      setLoaded(true)
+    },1500)
+  }
+  return <>
+
+{
+       
+       setLoading()
+
+     }
+
+
+{!loaded ?
+    <div className="loading">
+      <div class="spinner-grow text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+        
+      </div>
+      <div class="spinner-grow text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+        
+      </div>
+      <div class="spinner-grow text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+        
+      </div>
+      <div class="spinner-grow text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+        
+      </div>
+    </div>
+
+    :
     <BrowserRouter>
       <div className="App">
         <Header />
@@ -28,7 +65,6 @@ function App() {
             <Experience />
           </Route>
 
-
           <Route exact path="/skills">
             <Skills />
           </Route>
@@ -45,7 +81,9 @@ function App() {
         <Footer />
       </div>
     </BrowserRouter>
-  );
+ }
+    </>
 }
+
 
 export default App;

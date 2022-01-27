@@ -17,3 +17,15 @@
     text-align: center;
 }
 }
+
+.loading{
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .spinner-grow{
+        margin: 10px ;
+    }
+}
