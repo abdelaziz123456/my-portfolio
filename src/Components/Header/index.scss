@@ -15,21 +15,61 @@
         margin: 5px 30px;
             border: 1px solid black;
             border-radius: 5px;
-            padding: 5px 10px;min-width: 120px;
+            padding: 5px 10px;
+            min-width: 120px;
+            animation-name: unhoverwhite;
+                animation-timing-function: ease-in-out;
+                animation-duration: .5s;
+                animation-fill-mode: forwards;
+            
             &:hover{
-              border: 1px solid white;
+                animation-name: hoverwhite;
+                animation-timing-function: ease-in-out;
+                animation-duration: .25s;
+                animation-fill-mode: forwards;
             }
     }
     .navbar-nav{
+        @keyframes hoverwhite{
+            0%{
+                background-color: black;
+                border: 1px solid black;
+            };
+            100%{
+                background-color: rgba(255, 255, 255, 0.342);
+                border: 1px solid white;
+            }
+        }
+
+        @keyframes unhoverwhite{
+            100%{
+                background-color: black;
+                border: 1px solid black;
+            };
+            0%{
+                background-color: rgba(255, 255, 255, 0.342);
+                border: 1px solid white;
+            }
+        }
 
         .nav-item{
             margin: 5px 30px;
             border: 1px solid black;
             border-radius: 5px;
             padding: 5px 10px;
-            max-width: 120px;
+            text-align: center;
+            animation-name: unhoverwhite;
+            animation-timing-function: ease-in-out;
+            animation-duration: .5s;
+            animation-fill-mode: forwards;
             &:hover{
-              border: 1px solid white;
+              
+              animation-name: hoverwhite;
+              animation-timing-function: ease-in-out;
+              animation-duration: .25s;
+              animation-fill-mode: forwards;
+              
+
             }
         }
     }
@@ -38,3 +78,4 @@
     
     
 }
+
