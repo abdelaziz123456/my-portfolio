@@ -6,6 +6,7 @@ import Experience from "./Components/Experience";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import IntroSection from "./Components/IntroSection";
+import Learning from "./Components/Learning";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 
@@ -63,6 +64,10 @@ function App() {
 
           <Route exact path="/experience">
             <Experience />
+          </Route>
+
+          <Route exact path="/learning">
+            <Learning />
           </Route>
 
           <Route exact path="/skills">
