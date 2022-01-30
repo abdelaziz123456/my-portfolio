@@ -1,3 +1,4 @@
+@import '../../variables.scss';
 .contacts{
     display: flex;
     justify-content: center;
@@ -49,6 +50,7 @@
            
         }
         .right{
+            min-height: 400px;
             background-color: rgba(255, 255, 255, 0.596);
             margin-top: 10px;
             display: flex;

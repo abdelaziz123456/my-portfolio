@@ -19,7 +19,7 @@ export default function IntroSection() {
           typewriter.typeString('<h1>Hello Everyone</h1> ')
           .pauseFor(1000)
           .deleteAll()
-          .typeString(' <h1>I  am Abdelaziz Mohamed</h1>  	<br> <br> <h4> Web Developer specializing in front end development.</h4> <br> <br> <h5>Well-versed in numerous programming languages and frameworks including HTML5,CSS3,SASS,JavaScript, bootstrap,React js.</h5>')
+          .typeString(' <h1>I  am Abdelaziz Mohamed</h1>  	<br> <br> <h4> Web Developer specializing in front end development.</h4> <br> <br> <h5>Well-versed in numerous programming languages and frameworks including HTML5,CSS3,SASS,JavaScript, bootstrap,React js,Next js.</h5>')
           .start()
       }}       
       />
