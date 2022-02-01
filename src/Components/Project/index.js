@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import './index.scss'
 export default function Project(props) {
 
@@ -17,13 +18,15 @@ export default function Project(props) {
         <div className="buttons">
 
           <div className="d-flex justify-content-between my-2">
-          <a href={project.code} className="btn btn-dark me-2 " target='_blank'><i class="fa fa-code" aria-hidden="true"></i> </a>
-          <a href={project.live} className="btn btn-dark ms-2" target='_blank'><i class="fa fa-eye" aria-hidden="true"></i> </a>
+          <a href={project.code} className="btn btn-dark me-2 " target='_blank'><i className="fa fa-code" aria-hidden="true"></i> </a>
+          <a href={project.live} className="btn btn-dark ms-2" target='_blank'><i className="fa fa-eye" aria-hidden="true"></i> </a>
           </div>
          
-          <a href="" className="btn form-control btn-dark" target='_blank'> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i> More Details</a>
+          <Link to={`/project/${project.id}`} className="btn form-control btn-dark" > <i className="fa fa-arrow-circle-right" aria-hidden="true"></i> More Details</Link>
         </div>
     </div>
      
      </div>;
 }
+
+

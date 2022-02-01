@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import IntroSection from "./Components/IntroSection";
 import Learning from "./Components/Learning";
+import ProjectDetails from "./Components/ProjectDetails";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 
@@ -29,20 +30,20 @@ function App() {
 
 {!loaded ?
     <div className="loading">
-      <div class="spinner-grow text-light" role="status">
-        <span class="visually-hidden">Loading...</span>
+      <div className="spinner-grow text-light" role="status">
+        <span className="visually-hidden">Loading...</span>
         
       </div>
-      <div class="spinner-grow text-light" role="status">
-        <span class="visually-hidden">Loading...</span>
+      <div className="spinner-grow text-light" role="status">
+        <span className="visually-hidden">Loading...</span>
         
       </div>
-      <div class="spinner-grow text-light" role="status">
-        <span class="visually-hidden">Loading...</span>
+      <div className="spinner-grow text-light" role="status">
+        <span className="visually-hidden">Loading...</span>
         
       </div>
-      <div class="spinner-grow text-light" role="status">
-        <span class="visually-hidden">Loading...</span>
+      <div className="spinner-grow text-light" role="status">
+        <span className="visually-hidden">Loading...</span>
         
       </div>
     </div>
@@ -77,6 +78,12 @@ function App() {
           <Route exact path="/projects">
             <Projects />
           </Route>
+
+          <Route exact path="/project/:id" 
+          render={(props)=>{
+            return <ProjectDetails {...props} />
+          }}/>
+           
 
           <Route exact path="/contacts">
             <Contacts />

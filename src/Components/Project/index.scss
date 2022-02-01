@@ -7,6 +7,36 @@
         border-radius: 15px;
       width:250px ;
       min-height: 350px;
+      animation-name: unhover;
+        animation-timing-function: ease-in-out;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;
+
+      &:hover{
+        animation-name: hover;
+        animation-timing-function: ease-in-out;
+        animation-duration: .3s;
+        animation-fill-mode: forwards;
+      }
+     
+
+      @keyframes hover {
+          0%{
+              box-shadow: none;
+          }
+          100%{
+            box-shadow: 0 0 30px black;
+          }
+      }
+
+      @keyframes unhover {
+        100%{
+            box-shadow: none;
+        }
+        0%{
+          box-shadow: 0 0 30px black;
+        }
+    }
         img{
             border-radius: 5px;
             

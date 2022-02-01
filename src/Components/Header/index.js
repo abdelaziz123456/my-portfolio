@@ -8,27 +8,27 @@ export default function Header(props) {
 
   return (
     <div className="header ">
-    <nav class="navbar navbar-expand-md navbar-dark bg-black  ">
-  <div class="container-fluid ">
+    <nav className="navbar navbar-expand-md navbar-dark bg-black  ">
+  <div className="container-fluid ">
   <Link to="/my-portfolio" className="brand ">Portfolio</Link>
-    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-      <li class="nav-item ">
+    <div className="collapse navbar-collapse" id="navbarNav">
+      <ul className="navbar-nav ms-auto">
+      <li className="nav-item ">
         <Link to="/learning">Learning</Link>
         </li>
-        <li class="nav-item ">
+        <li className="nav-item ">
         <Link to="/experience">Experience</Link>
         </li>
-        <li class="nav-item ">
+        <li className="nav-item ">
         <Link to="/skills">Skills</Link>
         </li>
-        <li class="nav-item ">
+        <li className="nav-item ">
         <Link to="/projects">Projects</Link>
         </li>
-        <li class="nav-item ">
+        <li className="nav-item ">
         <Link to="/contacts">Contacts</Link>
         </li>
       </ul>

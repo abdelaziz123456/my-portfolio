@@ -1,0 +1,27 @@
+.project-details{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    .layer{
+        background-color: rgba(255, 255, 255, 0.294);
+        width: 80%;
+        min-height: 70vh;
+        border-radius: 15px;
+        .carousel{
+            max-width: 800px;
+            img{
+            margin: 10px;
+            max-height: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+            }
+            span{
+                background-color: black !important;
+                visibility: hidden;
+            }
+            
+        }
+    }
+}

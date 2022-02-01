@@ -13,46 +13,17 @@
         font-weight: bold;
         cursor: pointer;
         &:hover{
-            animation-name: moveup;
+            animation-name: hover;
             animation-fill-mode: forwards;
             animation-timing-function: ease-in-out;
-            animation-duration: .35s;
+            animation-duration: .3s;
         }
-        animation-name: movedown;
+        animation-name: unhover;
             animation-fill-mode: forwards;
             animation-timing-function: ease-in-out;
-            animation-duration: .35s;
+            animation-duration: .3s;
     }
    
   
 }
 
-@keyframes moveup{
-    0%{
-        position: relative;
-        top: 0;
-        right:0
-    }
-    100%{
-        position: relative;
-        top: -15px;
-        right:0
-    }
-
-
-}
-
-@keyframes movedown{
-    100%{
-        position: relative;
-        top: 0;
-        right:0
-    }
-    0%{
-        position: relative;
-        top: -10px;
-        right:0
-    }
-
-
-}
