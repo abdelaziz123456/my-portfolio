@@ -16,15 +16,16 @@ export default function Header(props) {
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto">
-      <li className="nav-item ">
-        <Link to="/learning">Learning</Link>
-        </li>
-        <li className="nav-item ">
-        <Link to="/experience">Experience</Link>
-        </li>
+     
+        
         <li className="nav-item ">
         <Link to="/skills">Skills</Link>
         </li>
+
+        <li className="nav-item ">
+        <Link to="/learning">Learning & Experience</Link>
+        </li>
+        
         <li className="nav-item ">
         <Link to="/projects">Projects</Link>
         </li>

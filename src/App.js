@@ -2,11 +2,12 @@ import { useState } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import "./App.scss";
 import Contacts from "./Components/Contacts";
-import Experience from "./Components/Experience";
+
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import IntroSection from "./Components/IntroSection";
-import Learning from "./Components/Learning";
+import LearningSkills from "./Components/Learning&skills";
+
 import ProjectDetails from "./Components/ProjectDetails";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
@@ -63,12 +64,10 @@ function App() {
             <IntroSection />
           </Route>
 
-          <Route exact path="/experience">
-            <Experience />
-          </Route>
+          
 
           <Route exact path="/learning">
-            <Learning />
+            <LearningSkills />
           </Route>
 
           <Route exact path="/skills">

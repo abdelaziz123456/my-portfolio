@@ -38,7 +38,7 @@ export default function ProjectDetails(props) {
             </div>
             <div className="carousel-item">
               <img
-                src={process.env.PUBLIC_URL + project.images[1]}
+                src={process.env.PUBLIC_URL + project.images[2]}
                 className="img-fluid  "
                 alt="..."
               />
