@@ -9,7 +9,7 @@ export default function LearningSkills() {
           <ul >
             <li >
               <span >
-                <strong >(1/2021-Present)</strong>
+                <strong >(1/2022-Present)</strong>
                 <br /> front-end developer at Silicon Arena company (part-time)
               </span>
             </li>
