@@ -29,7 +29,7 @@ export default function IntroSection() {
 
       <div className="buttons d-flex justify-content-center pt-5 w-100">
           
-              <a href='../cv/abdelaziz mohamed.pdf' className="btn btn-main" download>Get Cv</a>
+              <a href='https://drive.google.com/file/d/1U74E9_9gqC2XbVGKZK91gYPhewGGFrw8/view?usp=sharing' className="btn btn-main" target='_blank'>Get Cv</a>
       </div>
      
 
