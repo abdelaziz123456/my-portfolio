@@ -24,6 +24,9 @@ export default function LearningSkills() {
                 <br /> front-end developer at Silicon Arena company (part-time)
               </span>
             </li>
+
+
+            
             <li>
               <span>
                 <strong>(8/2021-11/2021)</strong>
