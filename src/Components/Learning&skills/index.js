@@ -7,12 +7,26 @@ export default function LearningSkills() {
         <div className=" left col-12 col-lg-6"></div>
         <div className="right col-12 col-lg-6">
           <ul >
+
+
+          <li>
+              <span>
+                <strong>(3/2022 -Present)</strong>
+                <br />
+                front-end developer at Axlr8 company (full-time)
+              </span>
+            </li>
+
+
             <li >
               <span >
                 <strong >(1/2022-Present)</strong>
                 <br /> front-end developer at Silicon Arena company (part-time)
               </span>
             </li>
+
+
+            
             <li>
               <span>
                 <strong>(8/2021-11/2021)</strong>
@@ -32,23 +46,17 @@ export default function LearningSkills() {
 
             <li>
               <span>
-                <strong>(December 2019-January 2021)</strong>
+                <strong>(12/2019-1/2021)</strong>
                 <br />
                 working as HVAC engineer at RAVEDO consultancy office
               </span>
             </li>
 
-            <li>
-              <span>
-                <strong>(September 2019-November 2019)</strong>
-                <br />
-                training as HVAC engineer at Shaker consultancy group
-              </span>
-            </li>
+           
 
             <li>
               <span>
-                <strong>(September 2015-July 2019)</strong>
+                <strong>(9/2015-7/2019)</strong>
                 <br /> studying mechanical power engineering ,Shoubra faculty of
                 engineering ,Benha university .<br />
                 Final grade: Very Good.
