@@ -20,7 +20,7 @@ export default function LearningSkills() {
 
             <li >
               <span >
-                <strong >(1/2022-Present)</strong>
+                <strong >(1/2022-4/2022)</strong>
                 <br /> front-end developer at Silicon Arena company (part-time)
               </span>
             </li>
